@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Ubuntu/Containerd安装.md",
+                "file": "Linux/Ubuntu/安装与配置Containerd.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Containerd安装"
+              "title": "安装与配置Containerd"
             }
           }
         ]
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Ubuntu/Containerd安装.md",
+                "file": "Linux/Ubuntu/安装与配置Containerd.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Containerd安装 的反向链接列表"
+              "title": "安装与配置Containerd 的反向链接列表"
             }
           },
           {
@@ -124,12 +124,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Ubuntu/Containerd安装.md",
+                "file": "Linux/Ubuntu/安装与配置Containerd.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Containerd安装 的出链列表"
+              "title": "安装与配置Containerd 的出链列表"
             }
           },
           {
@@ -167,13 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Ubuntu/Containerd安装.md",
+                "file": "Linux/Ubuntu/安装与配置Containerd.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Containerd安装 的大纲"
+              "title": "安装与配置Containerd 的大纲"
             }
           }
         ]
@@ -198,8 +198,8 @@
   },
   "active": "4d3c155fb2efe24d",
   "lastOpenFiles": [
-    "Linux/Ubuntu/Containerd安装.md",
     "Linux/Ubuntu/Root 账号的启用、登录与安全控制.md",
+    "Linux/Ubuntu/安装与配置Containerd.md",
     "README.md",
     "Tags",
     "未命名.base",
