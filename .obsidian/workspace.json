@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2589f8d8a94776bf",
+        "id": "933ce26c50acf40d",
         "type": "tabs",
         "children": [
           {
-            "id": "4d3c155fb2efe24d",
+            "id": "065d8952fa743787",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Ubuntu/安装与配置Containerd.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "安装与配置Containerd"
+              "title": "新标签页"
             }
           }
         ]
@@ -105,7 +101,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Ubuntu/安装与配置Containerd.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +110,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "安装与配置Containerd 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -124,12 +119,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Ubuntu/安装与配置Containerd.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "安装与配置Containerd 的出链列表"
+              "title": "出链"
             }
           },
           {
@@ -167,21 +161,30 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Ubuntu/安装与配置Containerd.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "安装与配置Containerd 的大纲"
+              "title": "大纲"
+            }
+          },
+          {
+            "id": "c2a9df0820e04e84",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,10 +199,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "4d3c155fb2efe24d",
+  "active": "3c3729f933aa7665",
   "lastOpenFiles": [
-    "Linux/Ubuntu/Root 账号的启用、登录与安全控制.md",
     "Linux/Ubuntu/安装与配置Containerd.md",
+    "Linux/Ubuntu/Root 账号的启用、登录与安全控制.md",
     "README.md",
     "Tags",
     "未命名.base",

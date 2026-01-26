@@ -59,7 +59,18 @@ debug: false
 crictl info
 ```
 正常会返回 containerd 的 runtime 信息。
-
+更换国内华为云 SWR 镜像加速
+```bash
+vi /etc/containerd/config.toml
+```
+配置 **docker.io 的 mirror**：
+```text
+位置:[plugins."io.containerd.grpc.v1.cri".registry.mirrors]下方插入
+[plugins."io.containerd.grpc.v1.cri".registry.mirrors."docker.io"]
+  endpoint = [
+    "https://swr.cn-south-1.myhuaweicloud.com"
+  ]
+```
 ### 基础验证
 查看服务状态
 ```bash
@@ -67,5 +78,5 @@ systemctl status containerd
 ```
 拉取镜像测试
 ```bash
-crictl pull docker.io/library/nginx:latest
+crictl pull nginx:latest
 ```
