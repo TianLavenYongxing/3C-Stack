@@ -33,6 +33,15 @@ sudo systemctl enable containerd
 ```
 
 ### 配置 crictl（可选，但是建议安装）
+```bash
+VERSION="v1.35.0"
+wget https://github.com/kubernetes-sigs/cri-tools/releases/download/${VERSION}/crictl-${VERSION}-linux-amd64.tar.gz
+
+tar -zxvf crictl-${VERSION}-linux-amd64.tar.gz
+sudo mv crictl /usr/local/bin/
+
+crictl version
+```
 > `crictl` 是 **Kubernetes 容器运行时接口（CRI）** 的一个 **命令行调试工具**，主要用于 **直接与容器运行时（如 containerd、CRI-O）交互**，而**不依赖 kubelet 或 kubectl**。
 1. 创建 crictl 配置
 ```bash
@@ -50,6 +59,7 @@ debug: false
 crictl info
 ```
 正常会返回 containerd 的 runtime 信息。
+
 ### 基础验证
 查看服务状态
 ```bash
