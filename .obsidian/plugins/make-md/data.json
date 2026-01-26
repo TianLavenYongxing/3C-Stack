@@ -38,7 +38,10 @@
   "vaultSelector": true,
   "deleteFileOption": "trash",
   "expandedSpaces": [
-    "/"
+    "/",
+    "//Linux",
+    "//Tags",
+    "//Linux/Linux/Ubuntu"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

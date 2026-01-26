@@ -11,10 +11,12 @@
             "id": "065d8952fa743787",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "mk-space",
+              "state": {
+                "path": "Linux/Ubuntu"
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Ubuntu"
             }
           }
         ]
@@ -71,7 +73,7 @@
             }
           },
           {
-            "id": "3c3729f933aa7665",
+            "id": "3261a6bb051fa803",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -199,7 +201,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "3c3729f933aa7665",
+  "active": "065d8952fa743787",
   "lastOpenFiles": [
     "Linux/Ubuntu/安装与配置Containerd.md",
     "Linux/Ubuntu/Root 账号的启用、登录与安全控制.md",
