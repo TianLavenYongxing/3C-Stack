@@ -13,32 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Ubuntu/安装与配置Containerd.md",
+                "file": "Linux/Ubuntu/安装与配置crictl.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "安装与配置Containerd"
-            }
-          }
-        ]
-      },
-      {
-        "id": "053243f151a603ec",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "3e679943d00eebc3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Ubuntu/虚拟机内存未正确挂载.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "虚拟机内存未正确挂载"
+              "title": "安装与配置crictl"
             }
           }
         ]
@@ -109,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 341.5
   },
   "right": {
     "id": "a848c7e9bcc80622",
@@ -226,11 +206,12 @@
   },
   "active": "8a0e533f3f70dba7",
   "lastOpenFiles": [
+    "Linux/Ubuntu/安装与配置Containerd.md",
+    "Linux/Ubuntu/安装与配置crictl.md",
     "Linux/Ubuntu/克隆虚拟机IP冲突.md",
     "Linux/Ubuntu/虚拟机内存未正确挂载.md",
     "Linux/SCP命令.md",
     "Linux/禁止指定 IP 访问整台服务器.md",
-    "Linux/Ubuntu/安装与配置Containerd.md",
     "Linux/Ubuntu/Root 账号的启用、登录与安全控制.md",
     "README.md",
     "Tags",
