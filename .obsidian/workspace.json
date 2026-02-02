@@ -11,14 +11,12 @@
             "id": "8a0e533f3f70dba7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "Linux/禁止指定 IP 访问整台服务器.md",
-                "mode": "source",
-                "source": false
+                "path": "Linux"
               },
               "icon": "lucide-file",
-              "title": "禁止指定 IP 访问整台服务器"
+              "title": "Linux"
             }
           }
         ]
@@ -75,7 +73,7 @@
             }
           },
           {
-            "id": "aa57a29145ac5f7c",
+            "id": "01d6e612f2cc7dc4",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
