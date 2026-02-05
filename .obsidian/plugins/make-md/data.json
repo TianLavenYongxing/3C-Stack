@@ -39,8 +39,7 @@
   "deleteFileOption": "trash",
   "expandedSpaces": [
     "/",
-    "//Linux",
-    "//Linux/Linux/Ubuntu"
+    "//Nginx"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
