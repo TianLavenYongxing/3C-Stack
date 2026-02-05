@@ -152,5 +152,11 @@ sudo kubeadm init \
   --ignore-preflight-errors=ImagePull
 
 
+kubeadm init \
+--apiserver-advertise-address=192.168.1.22 \
+--image-repository=registry.aliyuncs.com/google_containers \
+--service-cidr=10.96.0.0/12 \
+--pod-network-cidr=10.244.0.0/16 \
+--cri-socket=unix:///var/run/containerd/containerd.sock
 
 ```
