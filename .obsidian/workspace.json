@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Linux/Ubuntu/k8s安装与配置kubeadm.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
