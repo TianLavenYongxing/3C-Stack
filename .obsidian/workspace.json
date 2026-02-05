@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Ubuntu/安装与配置Containerd.md",
+                "file": "Linux/Ubuntu/k8s安装与配置kubeadm.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "安装与配置Containerd"
+              "title": "k8s安装与配置kubeadm"
             }
           }
         ]
@@ -206,8 +206,8 @@
   },
   "active": "8a0e533f3f70dba7",
   "lastOpenFiles": [
-    "Linux/Ubuntu/安装与配置crictl.md",
     "Linux/Ubuntu/安装与配置Containerd.md",
+    "Linux/Ubuntu/安装与配置crictl.md",
     "Linux/Ubuntu/Root 账号的启用、登录与安全控制.md",
     "README.md",
     "Linux/Ubuntu/虚拟机内存未正确挂载.md",
