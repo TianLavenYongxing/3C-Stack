@@ -46,7 +46,35 @@ timedatectl status
 lsmod | grep br_netfilter
 ```
 ### 加载 br_netfilter 模块
-·
+```bash
+sudo modprobe br_netfilter
+```
+### 打开 IP forwarding
+```bash
+sudo sysctl -w net.ipv4.ip_forward=1
+```
+### 配置永久生效（重启后仍然有效）
+```bash
+sudo tee /etc/sysctl.d/k8s.conf <<EOF
+net.bridge.bridge-nf-call-iptables = 1
+net.bridge.bridge-nf-call-ip6tables = 1
+net.ipv4.ip_forward = 1
+EOF
+```
+应用
+```bash
+sudo sysctl --system
+```
+验证
+```bash
+cat /proc/sys/net/bridge/bridge-nf-call-iptables
+cat /proc/sys/net/ipv4/ip_forward
+```
+输出必须是
+```bash
+1
+1
+```
 
 ## 安装与配置 Containerd
 
