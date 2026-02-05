@@ -77,4 +77,19 @@ apt update
 ```text
 Get: x https://pkgs.k8s.io/core:/stable:/v1.29/deb InRelease
 ```
-### 安装 kubeadm / kubelet / kubectl
+5. 安装 kubeadm / kubelet / kubectl
+```bash
+apt install -y kubelet kubeadm kubectl
+```
+6. 锁版本（必须）
+```bash
+apt-mark hold kubelet kubeadm kubectl
+```
+7. 验证是否成功
+```bash
+kubeadm version
+kubelet --version
+kubectl version --client
+```
+
+## Master主机执行
