@@ -123,3 +123,18 @@ kubectl version --client
 ```
 
 ## Master主机执行
+
+
+```bash
+sudo kubeadm config images pull \
+  --image-repository=registry.cn-hangzhou.aliyuncs.com/google_containers \
+  --cri-socket=unix:///run/containerd/containerd.sock
+```
+
+```bash
+sudo kubeadm init \
+  --apiserver-advertise-address=192.168.1.19 \
+  --pod-network-cidr=10.244.0.0/16 \
+  --image-repository=registry.cn-hangzhou.aliyuncs.com/google_containers \
+  --cri-socket=unix:///run/containerd/containerd.sock
+```
