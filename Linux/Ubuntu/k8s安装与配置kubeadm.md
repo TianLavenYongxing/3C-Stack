@@ -145,5 +145,12 @@ sudo kubeadm init \
   --cri-socket=unix:///run/containerd/containerd.sock
 
 
+sudo kubeadm init \
+  --apiserver-advertise-address=192.168.1.22 \
+  --pod-network-cidr=10.244.0.0/16 \
+  --cri-socket=unix:///run/containerd/containerd.sock \
+  --ignore-preflight-errors=ImagePull
+
+
 
 ```
