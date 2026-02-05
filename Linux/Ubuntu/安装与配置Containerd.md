@@ -68,7 +68,19 @@ vi /etc/containerd/config.toml
 位置:[plugins."io.containerd.grpc.v1.cri".registry.mirrors]下方插入
 [plugins."io.containerd.grpc.v1.cri".registry.mirrors."docker.io"]
   endpoint = [
-    "https://swr.cn-south-1.myhuaweicloud.com"
+    "https://registry.cn-hangzhou.aliyuncs.com",
+    "https://docker.mirrors.ustc.edu.cn",
+    "http://hub-mirror.c.163.com",
+    "https://docker.1panel.live",
+    "https://hub.littlediary.cn",
+    "https://docker.kejilion.pro",
+    "https://docker.1ms.run",
+    "https://lispy.org",
+    "https://docker.xiaogenban1993.com",
+    "https://docker.xuanyuan.me",
+    "https://docker.mybacc.com",
+    "https://docker-0.unsee.tech",
+    "https://dockerpull.cn"
   ]
 ```
 ### 基础验证
