@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nginx/ Nginx配置下载网站.md",
+                "file": "Nginx/APT镜像源.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Nginx配置下载网站"
+              "title": "APT镜像源"
             }
           }
         ]
@@ -206,7 +206,7 @@
   },
   "active": "8a0e533f3f70dba7",
   "lastOpenFiles": [
-    "Nginx/ Nginx配置下载网站.md",
+    "Nginx/APT镜像源.md",
     "Nginx/Nginx.md",
     "Untitled.md",
     "Nginx",
